@@ -26,7 +26,9 @@
     "test:coverage": "hardhat coverage",
     "foundry:install": "forge install foundry-rs/forge-std",
     "foundry:build": "forge build",
-    "foundry:test": "forge test"
+    "foundry:test": "forge test",
+    "install:all": "yarn && forge install foundry-rs/forge-std",
+    "test:all": "hardhat test && forge test"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
