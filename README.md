@@ -1,6 +1,6 @@
 # Semaphore-Hardhat-Foundry template
 
-This is a sample Semaphore project that can be used as a template.
+This is a sample Semaphore project that can be used as a template. It uses Foundry in a Hardhat project.
 
 ## Clone the repository
 
