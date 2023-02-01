@@ -1,19 +1,41 @@
-# Semaphore Hardhat template
+# Semaphore-Hardhat-Foundry template
 
-This project demonstrates a basic Semaphore use case. It comes with a sample contract, a test for that contract and a sample task that deploys that contract.
+This is a sample Semaphore project that can be used as a template.
 
-## Usage
+## Clone the repository
 
-### Compile
+```bash
+git clone https://github.com/vplasencia/semaphore-hardhat-foundry.git
+```
+
+## Install dependencies
+
+```bash
+yarn install:all
+```
+
+## Compile contracts
 
 ```bash
 yarn compile
 ```
 
-### Testing
+## Test contracts
 
 ```bash
-yarn test
+yarn test:all
+```
+
+## Show gas report
+
+```bash
+make gas-report
+```
+
+## Snapshot
+
+```bash
+make snapshot
 ```
 
 You can also generate a test coverage report:
